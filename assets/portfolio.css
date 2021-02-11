@@ -16,7 +16,7 @@
 /* Styles For The Header Img */
 .hero {
     /* photo by Ilya Pavlov on Unsplash */
-    background: url('/pictures/header\(ilyapavlov\).jpg') center;
+    background: url('./pictures/header\(ilyapavlov\).jpg') center;
     background-size: cover;
     padding: 50px 30px;
     display: grid;
@@ -58,7 +58,7 @@ a:focus {
     justify-content: center;
     align-items: center;
     /* photo by Joe Woods from Unsplash */
-    background-image: url("/pictures/background-for-aboutme\(joewoods\).jpg");
+    background-image: url("./pictures/background-for-aboutme\(joewoods\).jpg");
     font-size: 125%;
     margin: 30px;
 }
@@ -127,14 +127,14 @@ a:focus {
     display: inline-block;
     width: 100%;
     min-height: 300px;
-    background-image: url("/pictures/seo-accesibility-hw1.png");
+    background-image: url("./pictures/seo-accesibility-hw1.png");
 }
 
 /* Contact Me Section */
 
 .contact-me {
     /* photo by Melinda Gimpel on Unsplash */
-    background: url('/pictures/background1(melindagimpel).jpg');
+    background: url('./pictures/background1(melindagimpel).jpg');
     background-size: cover;    
     padding: 50px 30px;
     align-items: center;
