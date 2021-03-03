@@ -6,47 +6,53 @@
 body {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 16px;
-    background-color: beige;
+    /* background-color: beige; */
     max-width: 80%;
     margin: 0 auto;
+    background-image: url("./pictures/space.jfif");
 }
+
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(97, 6, 6);
+    /* background: rgb(97, 6, 6); */
+    background: transparent;
     font-size: 48px;
     margin-top: 12px;
-    padding: 148px;
-    color: #fff;
+    padding: 20px 164px 164px;
+    color: rgb(189, 183, 183);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    transition: all 243ms ease;
+    transition: all 100ms ease;
 }
 
 .nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 130%;
-    background: rgb(97, 6, 6);
+    font-size: 150%;
+    background: transparent;
+    /* background: rgb(97, 6, 6); */
     padding: 12px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    transition: all 243ms ease;
+    margin-bottom: 152px;
     
 }
 
 .nav > a {
     text-decoration: none;
-    color: #fff;
-    transition: all 243ms ease;
+    color: rgb(189, 183, 183);
+    /* color: #fff; */
+    transition: all 100ms ease;
 }
 
 .nav > a:hover {
     transform: translateY(-6px);
+    transition: all 100ms ease;
 }
 
 .picture {
@@ -59,7 +65,6 @@ body {
     max-width: 300px;
     max-height: 300px;
     border-radius: 20%;
-    margin-right: 24px;
     margin: 20px;
 }
 
@@ -103,14 +108,22 @@ body {
     font-size: 32px;
     margin: 24px;
     padding-bottom: 12px;
-    border-bottom: black solid 6px;
+    color: rgb(189, 183, 183);
+    border-bottom: rgb(189, 183, 183) solid 6px;
+    /* border-bottom: black solid 6px; */
+}
+
+.about-me > p {
+    color: rgb(189, 183, 183);
 }
 
 .h2 {
     font-size: 32px;
     margin: 24px;
     padding-bottom: 12px;
-    border-bottom: black solid 6px;
+    color: rgb(189, 183, 183);
+    border-bottom: rgb(189, 183, 183) solid 6px;
+    /* border-bottom: black solid 6px; */
 }
 
 
@@ -118,10 +131,11 @@ body {
 .first-project {
     width: 800px;
     min-height: 280px;
-    border: 4px solid black;
+    border: 4px solid rgb(189, 183, 183);
+    /* border: 4px solid black; */
     box-sizing: border-box;
     margin-bottom: 16px;
-    background-color: rgb(97, 6, 6);
+    /* background-color: rgb(97, 6, 6); */
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -129,7 +143,7 @@ body {
     background-image: url("./pictures/first-project.jpg");
     background-repeat: repeat;
     opacity: 0.8;
-    transition: all 243ms ease;
+    transition: all 100ms ease;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
@@ -140,7 +154,8 @@ body {
 }
 
 .first-homework {
-    border: 4px solid black;
+    border: 4px solid rgb(189, 183, 183);
+    /* border: 4px solid black; */
     width: 800px;
     min-height: 140px;
     box-sizing: border-box;
@@ -153,7 +168,7 @@ body {
     background-image: url("./pictures/avengers.jpg");
     background-repeat: repeat;
     opacity: 0.5;
-    transition: all 243ms ease;
+    transition: all 100ms ease;
 }
 
 .first-homework:hover {
@@ -162,7 +177,8 @@ body {
 }
 
 .second-homework {
-    border: 4px solid black;
+    border: 4px solid rgb(189, 183, 183);
+    /* border: 4px solid black; */
     width: 800px;
     min-height: 140px;
     box-sizing: border-box;
@@ -175,7 +191,7 @@ body {
     background-image: url("./pictures/1.jpg");
     background-repeat: repeat;
     opacity: 0.5;
-    transition: all 243ms ease;
+    transition: all 100ms ease;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
@@ -192,7 +208,8 @@ body {
     flex-direction: column;
     margin: 12px 12px 36px;
     padding: 12px;
-    border: 4px solid black;
+    border: 4px solid rgb(189, 183, 183);
+    /* border: 4px solid black; */
     border-radius: 80px;
 }
 
@@ -205,10 +222,11 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: rgb(189, 183, 183);
+    /* color: black; */
     padding: 12px;
     text-decoration: underline;
-    transition: all 243ms ease;
+    transition: all 100ms ease;
 }
 
 .contact-me > nav > a:hover {

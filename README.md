@@ -5,6 +5,7 @@
 * [Description](#description)
 * [Requirements](#requirements)
 * [Installation](#installation)
+* [Credit](#credit)
 
 ## Description
 ---
@@ -39,5 +40,11 @@ No need for any installation for this project.
 See deployed site here: https://erenozgur98.github.io/yigiterenozgur-portfolio/
 
 See repository here: https://github.com/erenozgur98
+
+## Credit
+
+---
+
+Background image from: Ivana Cajina from Unsplash.com
 
 
