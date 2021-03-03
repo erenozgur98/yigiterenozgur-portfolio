@@ -23,6 +23,7 @@ body {
     color: #fff;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    transition: all 243ms ease;
 }
 
 .nav {
@@ -34,6 +35,7 @@ body {
     padding: 12px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    transition: all 243ms ease;
     
 }
 
