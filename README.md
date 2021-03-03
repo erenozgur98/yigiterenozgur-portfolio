@@ -5,7 +5,6 @@
 * [Description](#description)
 * [Requirements](#requirements)
 * [Installation](#installation)
-* [Credits](#credits)
 
 ## Description
 ---
@@ -13,7 +12,7 @@ This is my Portfolio. The task was to create a portfolio for a potential employe
 
 Deployed Portfolio: https://erenozgur98.github.io/yigiterenozgur-portfolio/
 
-![Portfolio](./pictures/portfolioss.jpg)
+![Portfolio](./assets/pictures/portfolioss.jpg)
 
 ## Requirements
 ---
@@ -41,11 +40,4 @@ See deployed site here: https://erenozgur98.github.io/yigiterenozgur-portfolio/
 
 See repository here: https://github.com/erenozgur98
 
-## Credits
----
-Thank you for Unsplash for providing me with their pictures;
 
-Ilya Pavlov,
-Markus Spiske,
-Luca Bravo,
-Keith Misner.

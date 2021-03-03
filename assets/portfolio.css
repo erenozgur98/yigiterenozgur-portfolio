@@ -1,190 +1,218 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
 }
 
-:root {
-    --dark: #33393f;
-    --light: #86A3C3;
-    --dark-accent: #7268A6;
-    --light-accent: #B6CEC7;
+body {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 16px;
+    background-color: beige;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
-
-/* Styles For The Header Img */
 .hero {
-    /* photo by Ilya Pavlov on Unsplash */
-    background: url('./pictures/header\(ilyapavlov\).jpg') center;
-    background-size: cover;
-    padding: 50px 30px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    display: flex;
+    justify-content: center;
     align-items: center;
-    color: #fff;    
+    flex-direction: column;
+    background: rgb(97, 6, 6);
+    font-size: 48px;
+    margin-top: 12px;
+    padding: 148px;
+    color: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
-.hero a {
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 130%;
+    background: rgb(97, 6, 6);
+    padding: 12px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+.nav > a {
     text-decoration: none;
-    color: #fff;    
-    margin-left: 5.5rem;   
-    opacity: .8;    
+    color: #fff;
+    transition: all 243ms ease;
 }
 
-/* hovering for the links to make them not have any opacity once hovered on them */
-a:hover {
-    opacity: 1.2;    
+.nav > a:hover {
+    transform: translateY(-6px);
 }
 
-a:focus {
-    outline: auto;
+.picture {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.hero > h1 {
-    margin-left: 40px;
-    font-size: 3rem;    
-    opacity: .8;   
-}
-
-.portfolio-pic { 
-    max-width: 250px;
-    max-height: 250px;
-    /* border-radius: 30%; */
+.portfolio-pic {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20%;
+    margin-right: 24px;
+    margin: 20px;
 }
 
 .about-me {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* photo by Joe Woods from Unsplash */
-    background-image: url("./pictures/background-for-aboutme\(joewoods\).jpg");
-    font-size: 125%;
-    margin: 30px;
+    font-size: 24px;
+    padding: 36px;
 }
 
 .about-me > p {
-    margin-left: 50px;
-}
-
-.about-me > h2 {
-    border-right: 4px solid black;
-    padding-right: 16px;
-    margin: 16px;
-}
-
-/* Work Section */
-
-.work {
-    padding: 1rem;    
-}
-
-.work > ul {
-    display: grid;    
-    grid-template-columns: 50% 25% 25%;
-    grid-gap: .5rem;    
-}
-
-.work > ul > li {
-    border: 1px solid var(--light);
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    list-style-type: none;
-    opacity: 0.8;
-}
-
-.work > ul > li:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-
-.work > ul > li:active {
-    box-shadow: 0 0 10px var(--light-accent) inset;
-}
-
-
-.work > ul > li > figure {
-    max-height: 220px;
-    overflow: hidden;
-    position: relative;
-}
-
-.work > ul > li > figure > img {
-    width: 100%;
-}
-
-.work > ul > li > figure > figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: black;
-    color: #fff;
+    margin: 24px;
     text-align: center;
-    width: 100%;
-    opacity: .5;
+    padding-left: 24px;
 }
 
-.big-project {
-    display: inline-block;
-    width: 100%;
-    min-height: 300px;
-    background-image: url("./pictures/seo-accesibility-hw1.png");
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 24px;
 }
 
-/* Contact Me Section */
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-me-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 32px;
+    margin: 24px;
+    padding-bottom: 12px;
+    border-bottom: black solid 6px;
+}
+
+.h2 {
+    font-size: 32px;
+    margin: 24px;
+    padding-bottom: 12px;
+    border-bottom: black solid 6px;
+}
+
+
+
+.first-project {
+    width: 800px;
+    min-height: 280px;
+    border: 4px solid black;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: rgb(97, 6, 6);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url("./pictures/first-project.jpg");
+    background-repeat: repeat;
+    opacity: 0.8;
+    transition: all 243ms ease;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.first-project:hover {
+    transform: translateY(-6px);
+    opacity: 1;
+}
+
+.first-homework {
+    border: 4px solid black;
+    width: 800px;
+    min-height: 140px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: rgb(97, 6, 6);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url("./pictures/avengers.jpg");
+    background-repeat: repeat;
+    opacity: 0.5;
+    transition: all 243ms ease;
+}
+
+.first-homework:hover {
+    transform: translateY(-6px);
+    opacity: 1;
+}
+
+.second-homework {
+    border: 4px solid black;
+    width: 800px;
+    min-height: 140px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: rgb(97, 6, 6);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url("./pictures/1.jpg");
+    background-repeat: repeat;
+    opacity: 0.5;
+    transition: all 243ms ease;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.second-homework:hover {
+    transform: translateY(-6px);
+    opacity: 1;
+}
 
 .contact-me {
-    /* photo by Melinda Gimpel on Unsplash */
-    background: url('./pictures/background1(melindagimpel).jpg');
-    background-size: cover;    
-    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding-right: 200px;
-    margin: 20px 40px;    
+    flex-direction: column;
+    margin: 12px 12px 36px;
+    padding: 12px;
+    border: 4px solid black;
+    border-radius: 80px;
 }
 
-.contact-me > ul {
-    display: flex;    
-    justify-content: space-evenly;
-    list-style-type: none;    
+.contact-me > nav {
+    display: flex;
 }
 
-.contact-me > ul > a {    
+.contact-me > nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    color: #fff;    
-    text-align: center; 
-}
-
-h3 {
+    color: black;
+    padding: 12px;
     text-decoration: underline;
-    color: #fff;
+    transition: all 243ms ease;
 }
 
-footer {
-    text-align: center;
-    margin: 40px;
-}
-
-/* media queries */
-
-@media screen (max-width: 425px) {
-    .about-me {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items:center;
-        width: 100%;
-    }
-
-    .about-me > p {
-        flex-direction: column;
-    }
+.contact-me > nav > a:hover {
+    transform: translateY(-6px);
 }
 
 
-@media screen (max-width: 768px) {
-    .contact-me  {
-        display: flex;
-        justify-content: column;
-    }
-}
+
+
