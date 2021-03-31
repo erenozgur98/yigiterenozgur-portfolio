@@ -6,10 +6,12 @@
 body {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 16px;
-    /* background-color: beige; */
     max-width: 80%;
     margin: 0 auto;
-    background-image: url("./pictures/space.jfif");
+    background-color: #470707;
+    /* background-image: url("./pictures/space.jfif"); */
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
 }
 
 
@@ -24,8 +26,8 @@ body {
     margin-top: 12px;
     padding: 20px 164px 164px;
     color: rgb(189, 183, 183);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
     transition: all 100ms ease;
 }
 
@@ -44,9 +46,8 @@ body {
 }
 
 .nav > a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: rgb(189, 183, 183);
-    /* color: #fff; */
     transition: all 100ms ease;
 }
 
@@ -141,14 +142,38 @@ body {
     justify-content: center;
     text-decoration: none;
     background-image: url("./pictures/first-project.jpg");
-    background-repeat: repeat;
-    opacity: 0.8;
+    /* background-repeat: repeat; */
+    opacity: 0.9;
     transition: all 100ms ease;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
 
 .first-project:hover {
+    transform: translateY(-6px);
+    opacity: 1;
+}
+
+.second-project {
+    border: 4px solid rgb(189, 183, 183);
+    /* border: 4px solid black; */
+    width: 800px;
+    min-height: 280px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: rgb(97, 6, 6);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url("./pictures/cuPets.jpg");
+    background-size: 800px 300px;
+    /* background-repeat: repeat; */
+    opacity: 0.8;
+    transition: all 100ms ease;
+}
+
+.second-project:hover {
     transform: translateY(-6px);
     opacity: 1;
 }
@@ -166,37 +191,14 @@ body {
     justify-content: center;
     text-decoration: none;
     background-image: url("./pictures/avengers.jpg");
-    background-repeat: repeat;
-    opacity: 0.5;
-    transition: all 100ms ease;
-}
-
-.first-homework:hover {
-    transform: translateY(-6px);
-    opacity: 1;
-}
-
-.second-homework {
-    border: 4px solid rgb(189, 183, 183);
-    /* border: 4px solid black; */
-    width: 800px;
-    min-height: 140px;
-    box-sizing: border-box;
-    margin-bottom: 16px;
-    background-color: rgb(97, 6, 6);
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    text-decoration: none;
-    background-image: url("./pictures/1.jpg");
-    background-repeat: repeat;
-    opacity: 0.5;
+    /* background-repeat: repeat; */
+    opacity: 0.8;
     transition: all 100ms ease;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 
-.second-homework:hover {
+.first-homework:hover {
     transform: translateY(-6px);
     opacity: 1;
 }
@@ -205,12 +207,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin: 12px 12px 36px;
-    padding: 12px;
+    padding: 24px;
     border: 4px solid rgb(189, 183, 183);
-    /* border: 4px solid black; */
-    border-radius: 80px;
+    border-radius: 50px;
 }
 
 .contact-me > nav {
@@ -232,6 +232,71 @@ body {
 .contact-me > nav > a:hover {
     transform: translateY(-6px);
 }
+
+@media screen and (max-width: 1020px) {
+    .first-project, .second-project, .first-homework {
+        width: 600px;
+        background-size: 600px 300px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .first-project, .second-project, .first-homework {
+        width: 500px;
+        background-size: 500px 300px;
+    }
+    
+    .hero {
+        padding-left: 48px;
+        padding-right: 48px;     
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .first-project, .second-project, .first-homework {
+        width: 300px;
+        background-size: 300px 350px;
+    }
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .hero {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .contact-me > nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .about-me {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 342px) {
+    .hero {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
 
 
 
