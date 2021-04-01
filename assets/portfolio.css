@@ -9,9 +9,6 @@ body {
     max-width: 80%;
     margin: 0 auto;
     background-color: #470707;
-    /* background-image: url("./pictures/space.jfif"); */
-    /* background-attachment: fixed; */
-    /* background-repeat: no-repeat; */
 }
 
 
@@ -26,8 +23,6 @@ body {
     margin-top: 12px;
     padding: 20px 164px 164px;
     color: rgb(189, 183, 183);
-    /* border-top-left-radius: 50px;
-    border-top-right-radius: 50px; */
     transition: all 100ms ease;
 }
 
@@ -46,7 +41,6 @@ body {
 }
 
 .nav > a {
-    /* text-decoration: none; */
     color: rgb(189, 183, 183);
     transition: all 100ms ease;
 }
@@ -111,7 +105,6 @@ body {
     padding-bottom: 12px;
     color: rgb(189, 183, 183);
     border-bottom: rgb(189, 183, 183) solid 6px;
-    /* border-bottom: black solid 6px; */
 }
 
 .about-me > p {
@@ -124,7 +117,6 @@ body {
     padding-bottom: 12px;
     color: rgb(189, 183, 183);
     border-bottom: rgb(189, 183, 183) solid 6px;
-    /* border-bottom: black solid 6px; */
 }
 
 
@@ -156,7 +148,6 @@ body {
 
 .second-project {
     border: 4px solid rgb(189, 183, 183);
-    /* border: 4px solid black; */
     width: 800px;
     min-height: 280px;
     box-sizing: border-box;
@@ -167,8 +158,7 @@ body {
     justify-content: center;
     text-decoration: none;
     background-image: url("./pictures/cuPets.jpg");
-    background-size: 800px 300px;
-    /* background-repeat: repeat; */
+    background-size: 825px 300px;
     opacity: 0.8;
     transition: all 100ms ease;
 }
@@ -180,7 +170,6 @@ body {
 
 .first-homework {
     border: 4px solid rgb(189, 183, 183);
-    /* border: 4px solid black; */
     width: 800px;
     min-height: 140px;
     box-sizing: border-box;
@@ -191,7 +180,6 @@ body {
     justify-content: center;
     text-decoration: none;
     background-image: url("./pictures/avengers.jpg");
-    /* background-repeat: repeat; */
     opacity: 0.8;
     transition: all 100ms ease;
     border-bottom-left-radius: 50px;
@@ -223,7 +211,6 @@ body {
     align-items: center;
     text-decoration: none;
     color: rgb(189, 183, 183);
-    /* color: black; */
     padding: 12px;
     text-decoration: underline;
     transition: all 100ms ease;
@@ -296,8 +283,3 @@ body {
         padding-right: 8px;
     }
 }
-
-
-
-
-
