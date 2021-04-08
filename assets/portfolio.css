@@ -204,6 +204,26 @@ body {
     opacity: 1;
 }
 
+.description {
+    width: 800px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link > a {
+    color: #470707;
+    padding: 8px;
+    text-decoration: none;
+    border: rgb(151, 144, 144) solid 4px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
 .contact-me {
     display: flex;
     justify-content: center;
@@ -236,7 +256,7 @@ body {
 }
 
 @media screen and (max-width: 1020px) {
-    .first-project, .second-project, .first-homework {
+    .first-project, .second-project, .first-homework, .description, .link {
         width: 600px;
         background-size: 600px 300px;
     }
@@ -250,7 +270,7 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-    .first-project, .second-project, .first-homework {
+    .first-project, .second-project, .first-homework, .description, .link {
         width: 500px;
         background-size: 500px 300px;
     }
@@ -262,7 +282,7 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-    .first-project, .second-project, .first-homework {
+    .first-project, .second-project, .first-homework, .description, .link {
         width: 300px;
         background-size: 300px 350px;
     }
