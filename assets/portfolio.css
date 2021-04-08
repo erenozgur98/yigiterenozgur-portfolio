@@ -186,7 +186,7 @@ body {
     /* border: #470707 solid 4px; */
     border: rgb(151, 144, 144) solid 4px;
     width: 800px;
-    min-height: 140px;
+    min-height: 280px;
     box-sizing: border-box;
     margin-bottom: 16px;
     background-color: rgb(97, 6, 6);
