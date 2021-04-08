@@ -172,6 +172,8 @@ body {
     background-size: 825px 300px;
     opacity: 0.8;
     transition: all 100ms ease;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .second-project:hover {
@@ -195,8 +197,8 @@ body {
     background-image: url("./pictures/avengers.jpg");
     opacity: 0.8;
     transition: all 100ms ease;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .first-homework:hover {
@@ -208,6 +210,8 @@ body {
     width: 800px;
     text-align: center;
     margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #470707;
 }
 
 .link {
@@ -223,7 +227,15 @@ body {
     border: rgb(151, 144, 144) solid 4px;
     border-radius: 16px;
     margin-bottom: 12px;
+    transition: all 283ms ease;
 }
+
+.link > a:hover {
+    transform: translateY(-6px);
+    background-color: #470707;
+    color: rgb(189, 183, 183);
+}
+
 .contact-me {
     display: flex;
     justify-content: center;
@@ -234,7 +246,6 @@ body {
     border: #470707 solid 4px;
     border-radius: 50px;
 }
-
 
 .contact-me > nav {
     display: flex;
